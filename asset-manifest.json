@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/codigo-certo-projeto-voluntario/static/css/main.a83cb88f.css",
+    "main.js": "/codigo-certo-projeto-voluntario/static/js/main.d28457f9.js",
+    "static/js/453.f71d2613.chunk.js": "/codigo-certo-projeto-voluntario/static/js/453.f71d2613.chunk.js",
+    "static/media/minhafoto23.png": "/codigo-certo-projeto-voluntario/static/media/minhafoto23.09da0f87c9c379be2369.png",
+    "static/media/capasection1.png": "/codigo-certo-projeto-voluntario/static/media/capasection1.c96455b091cde9d4e099.png",
+    "static/media/react-icon.png": "/codigo-certo-projeto-voluntario/static/media/react-icon.f1e3aa44fbf755e02cee.png",
+    "static/media/hobbie4.png": "/codigo-certo-projeto-voluntario/static/media/hobbie4.ded1df8fd919d895b8d2.png",
+    "static/media/hobbie1.png": "/codigo-certo-projeto-voluntario/static/media/hobbie1.27e6fb3d6190d2bb6690.png",
+    "static/media/codigocerto.png": "/codigo-certo-projeto-voluntario/static/media/codigocerto.16c2444991253ee054ab.png",
+    "static/media/cb-iconhobbie.png": "/codigo-certo-projeto-voluntario/static/media/cb-iconhobbie.c8e776afdf1c836504d2.png",
+    "static/media/css-icon.png": "/codigo-certo-projeto-voluntario/static/media/css-icon.9138129100e8cfe00777.png",
+    "static/media/html-icon.png": "/codigo-certo-projeto-voluntario/static/media/html-icon.1dc64eb9b63f08d8489d.png",
+    "static/media/javascript-icon.png": "/codigo-certo-projeto-voluntario/static/media/javascript-icon.d1e39dbbd8016797f9da.png",
+    "static/media/git-icon.png": "/codigo-certo-projeto-voluntario/static/media/git-icon.262cb5e28990a282387d.png",
+    "static/media/hobbie2.png": "/codigo-certo-projeto-voluntario/static/media/hobbie2.2e16fbccfdf122a4082c.png",
+    "static/media/cb-icon.png": "/codigo-certo-projeto-voluntario/static/media/cb-icon.525a6b9e6678e50b403c.png",
+    "index.html": "/codigo-certo-projeto-voluntario/index.html",
+    "main.a83cb88f.css.map": "/codigo-certo-projeto-voluntario/static/css/main.a83cb88f.css.map",
+    "main.d28457f9.js.map": "/codigo-certo-projeto-voluntario/static/js/main.d28457f9.js.map",
+    "453.f71d2613.chunk.js.map": "/codigo-certo-projeto-voluntario/static/js/453.f71d2613.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a83cb88f.css",
+    "static/js/main.d28457f9.js"
+  ]
+}
