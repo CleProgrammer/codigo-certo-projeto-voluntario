@@ -1,0 +1,210 @@
+.whatIlike-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+}
+
+.whatIlike-main .hobbie-1,
+.whatIlike-main .hobbie-2,
+.whatIlike-main .hobbie-3,
+.whatIlike-main .hobbie-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 16%;
+    height: 70%;
+}
+
+.whatIlike-main .hobbie-1 img,
+.whatIlike-main .hobbie-2 img,
+.whatIlike-main .hobbie-3 img,
+.whatIlike-main .hobbie-4 img {
+    width: 7vw;
+    height: 7vw;
+    padding: 15px;
+    background-color: #e53939;
+}
+
+
+.whatIlike-main .hobbie-1 .hobbie-1-description ,
+.whatIlike-main .hobbie-2 .hobbie-2-description,
+.whatIlike-main .hobbie-3 .hobbie-3-description,
+.whatIlike-main .hobbie-4 .hobbie-4-description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    padding-top: 5px;
+}
+
+.whatIlike-main .hobbie-1 .hobbie-1-description .hobbie-1-description-title,
+.whatIlike-main .hobbie-2 .hobbie-2-description .hobbie-2-description-title,
+.whatIlike-main .hobbie-3 .hobbie-3-description .hobbie-3-description-title,
+.whatIlike-main .hobbie-4 .hobbie-4-description .hobbie-4-description-title {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+.whatIlike-main .hobbie-1 .hobbie-1-description .hobbie-1-description-text,
+.whatIlike-main .hobbie-2 .hobbie-2-description .hobbie-2-description-text,
+.whatIlike-main .hobbie-3 .hobbie-3-description .hobbie-3-description-text,
+.whatIlike-main .hobbie-4 .hobbie-4-description .hobbie-4-description-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-weight: bold;
+    font-size: 1.0vw;
+}
+
+/*MOBILE*/
+@media (max-width: 480px) {
+    .whatIlike-main {
+        flex-wrap: wrap;
+    }
+
+    .whatIlike-main .hobbie-1,
+    .whatIlike-main .hobbie-2,
+    .whatIlike-main .hobbie-3,
+    .whatIlike-main .hobbie-4 {
+        width: 35%;
+        height: 40%;
+    }
+
+    .whatIlike-main .hobbie-1 img,
+    .whatIlike-main .hobbie-2 img,
+    .whatIlike-main .hobbie-3 img,
+    .whatIlike-main .hobbie-4 img {
+        width: 9vw;
+        height: 9vw;
+    }
+
+    .whatIlike-main .hobbie-1 .hobbie-1-description .hobbie-1-description-title,
+    .whatIlike-main .hobbie-2 .hobbie-2-description .hobbie-2-description-title,
+    .whatIlike-main .hobbie-3 .hobbie-3-description .hobbie-3-description-title,
+    .whatIlike-main .hobbie-4 .hobbie-4-description .hobbie-4-description-title {
+        font-size: 2.7vw;
+    }
+
+    .whatIlike-main .hobbie-1 .hobbie-1-description .hobbie-1-description-text,
+    .whatIlike-main .hobbie-2 .hobbie-2-description .hobbie-2-description-text,
+    .whatIlike-main .hobbie-3 .hobbie-3-description .hobbie-3-description-text,
+    .whatIlike-main .hobbie-4 .hobbie-4-description .hobbie-4-description-text {
+        font-size: 2.1vw;
+    }
+}
+
+/*EXTRA SMALL DEVICES*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .whatIlike-main {
+        flex-wrap: wrap;
+    }
+
+    .whatIlike-main .hobbie-1,
+    .whatIlike-main .hobbie-2,
+    .whatIlike-main .hobbie-3,
+    .whatIlike-main .hobbie-4 {
+        width: 35%;
+        height: 40%;
+    }
+
+    .whatIlike-main .hobbie-1 img,
+    .whatIlike-main .hobbie-2 img,
+    .whatIlike-main .hobbie-3 img,
+    .whatIlike-main .hobbie-4 img {
+        width: 9vw;
+        height: 9vw;
+    }
+
+    .whatIlike-main .hobbie-1 .hobbie-1-description .hobbie-1-description-title,
+    .whatIlike-main .hobbie-2 .hobbie-2-description .hobbie-2-description-title,
+    .whatIlike-main .hobbie-3 .hobbie-3-description .hobbie-3-description-title,
+    .whatIlike-main .hobbie-4 .hobbie-4-description .hobbie-4-description-title {
+        font-size: 2.7vw;
+    }
+
+    .whatIlike-main .hobbie-1 .hobbie-1-description .hobbie-1-description-text,
+    .whatIlike-main .hobbie-2 .hobbie-2-description .hobbie-2-description-text,
+    .whatIlike-main .hobbie-3 .hobbie-3-description .hobbie-3-description-text,
+    .whatIlike-main .hobbie-4 .hobbie-4-description .hobbie-4-description-text {
+        font-size: 2.1vw;
+    }
+}
+
+/*SMALL TABLETS*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .whatIlike-main {
+        flex-wrap: wrap;
+    }
+
+    .whatIlike-main .hobbie-1,
+    .whatIlike-main .hobbie-2,
+    .whatIlike-main .hobbie-3,
+    .whatIlike-main .hobbie-4 {
+        width: 35%;
+        height: 40%;
+    }
+
+    .whatIlike-main .hobbie-1 img,
+    .whatIlike-main .hobbie-2 img,
+    .whatIlike-main .hobbie-3 img,
+    .whatIlike-main .hobbie-4 img {
+        width: 9vw;
+        height: 9vw;
+    }
+
+    .whatIlike-main .hobbie-1 .hobbie-1-description .hobbie-1-description-title,
+    .whatIlike-main .hobbie-2 .hobbie-2-description .hobbie-2-description-title,
+    .whatIlike-main .hobbie-3 .hobbie-3-description .hobbie-3-description-title,
+    .whatIlike-main .hobbie-4 .hobbie-4-description .hobbie-4-description-title {
+        font-size: 2.7vw;
+    }
+
+    .whatIlike-main .hobbie-1 .hobbie-1-description .hobbie-1-description-text,
+    .whatIlike-main .hobbie-2 .hobbie-2-description .hobbie-2-description-text,
+    .whatIlike-main .hobbie-3 .hobbie-3-description .hobbie-3-description-text,
+    .whatIlike-main .hobbie-4 .hobbie-4-description .hobbie-4-description-text {
+        font-size: 2.1vw;
+    }
+}
+
+/*LARGE TABLETS/LAPTOPS*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .whatIlike-main {
+        flex-wrap: wrap;
+    }
+
+    .whatIlike-main .hobbie-1,
+    .whatIlike-main .hobbie-2,
+    .whatIlike-main .hobbie-3,
+    .whatIlike-main .hobbie-4 {
+        width: 35%;
+        height: 40%;
+    }
+
+    .whatIlike-main .hobbie-1 img,
+    .whatIlike-main .hobbie-2 img,
+    .whatIlike-main .hobbie-3 img,
+    .whatIlike-main .hobbie-4 img {
+        width: 9vw;
+        height: 9vw;
+    }
+
+    .whatIlike-main .hobbie-1 .hobbie-1-description .hobbie-1-description-title,
+    .whatIlike-main .hobbie-2 .hobbie-2-description .hobbie-2-description-title,
+    .whatIlike-main .hobbie-3 .hobbie-3-description .hobbie-3-description-title,
+    .whatIlike-main .hobbie-4 .hobbie-4-description .hobbie-4-description-title {
+        font-size: 2.7vw;
+    }
+
+    .whatIlike-main .hobbie-1 .hobbie-1-description .hobbie-1-description-text,
+    .whatIlike-main .hobbie-2 .hobbie-2-description .hobbie-2-description-text,
+    .whatIlike-main .hobbie-3 .hobbie-3-description .hobbie-3-description-text,
+    .whatIlike-main .hobbie-4 .hobbie-4-description .hobbie-4-description-text {
+        font-size: 2.1vw;
+    }
+}

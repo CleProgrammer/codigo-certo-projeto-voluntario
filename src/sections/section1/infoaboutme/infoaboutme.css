@@ -1,0 +1,214 @@
+@keyframes PictureChangeColor {
+    0%{ margin-top: 0; }
+    50% { margin-top: 100px; }
+    100% { margin-top: 0; }
+}
+
+.info-about-me {
+    display: flex;
+    width: 80%;
+    height: 85vh;
+}
+
+.info-about-me .infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.info-about-me .infos .info-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: 50%;
+}
+
+.info-about-me .infos .info-main div {
+    color: white;
+    font-size: 3vw;
+}
+
+.info-about-me .infos .info-main .my-name {
+    font-size: 4.7vw;
+    color: #e53939;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 13px 12px 0px rgb(44, 44, 44);
+}
+
+.info-about-me .infos .info-main .icons-programming {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 20%;
+    margin-top: 40px;
+}
+
+.info-about-me .picture {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.info-about-me .picture img {
+    width: 33vw;
+    opacity: 90%;
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+    .info-about-me {
+        flex-direction: column;
+    }
+
+    .info-about-me .infos {
+        width: 100%;
+        height: 70%;
+    }
+
+    .info-about-me .infos .info-main div {
+        font-size: 6vw;
+    }
+    
+    .info-about-me .infos .info-main .my-name {
+        font-size: 10vw;
+        text-shadow: 8px 8px 0px rgb(44, 44, 44);
+    }
+
+    .info-about-me .infos .info-main .icons-programming {
+        margin-top: 20px;
+    }
+
+    .info-about-me .picture {
+        justify-content: center;
+        width: 100%;
+        margin-top: -100px;
+    }
+    
+    .info-about-me .picture img {
+        position: absolute;
+        width: 45vw;
+        opacity: 90%;
+        animation: PictureChangeColor 5s ease infinite;
+    }
+}
+
+/*EXTRA SMALL DEVICES*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .info-about-me {
+        flex-direction: column;
+    }
+
+    .info-about-me .infos {
+        width: 100%;
+        height: 70%;
+    }
+
+    .info-about-me .infos .info-main div {
+        font-size: 6vw;
+    }
+    
+    .info-about-me .infos .info-main .my-name {
+        font-size: 10vw;
+        text-shadow: 8px 8px 0px rgb(44, 44, 44);
+    }
+
+    .info-about-me .infos .info-main .icons-programming {
+        margin-top: 20px;
+    }
+
+    .info-about-me .picture {
+        justify-content: center;
+        width: 100%;
+        margin-top: -100px;
+    }
+    
+    .info-about-me .picture img {
+        position: absolute;
+        width: 45vw;
+        opacity: 90%;
+        animation: PictureChangeColor 5s ease infinite;
+    }
+}
+
+/*SMALL TABLETS*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .info-about-me {
+        flex-direction: column;
+    }
+
+    .info-about-me .infos {
+        width: 100%;
+        height: 70%;
+    }
+
+    .info-about-me .infos .info-main div {
+        font-size: 6vw;
+    }
+    
+    .info-about-me .infos .info-main .my-name {
+        font-size: 10vw;
+        text-shadow: 8px 8px 0px rgb(44, 44, 44);
+    }
+
+    .info-about-me .infos .info-main .icons-programming {
+        margin-top: 20px;
+    }
+
+    .info-about-me .picture {
+        justify-content: center;
+        width: 100%;
+        margin-top: -100px;
+    }
+    
+    .info-about-me .picture img {
+        position: absolute;
+        width: 45vw;
+        opacity: 90%;
+        animation: PictureChangeColor 5s ease infinite;
+    }
+}
+
+/*LARGE TABLETS/LAPTOPS*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .info-about-me {
+        flex-direction: column;
+    }
+
+    .info-about-me .infos {
+        width: 100%;
+        height: 70%;
+    }
+
+    .info-about-me .infos .info-main div {
+        font-size: 6vw;
+    }
+    
+    .info-about-me .infos .info-main .my-name {
+        font-size: 10vw;
+        text-shadow: 8px 8px 0px rgb(44, 44, 44);
+    }
+
+    .info-about-me .infos .info-main .icons-programming {
+        margin-top: 20px;
+    }
+
+    .info-about-me .picture {
+        justify-content: center;
+        width: 100%;
+        margin-top: -100px;
+    }
+    
+    .info-about-me .picture img {
+        position: absolute;
+        width: 45vw;
+        opacity: 90%;
+        animation: PictureChangeColor 5s ease infinite;
+    }
+}

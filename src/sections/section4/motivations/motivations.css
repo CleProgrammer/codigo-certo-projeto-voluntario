@@ -1,0 +1,119 @@
+@keyframes rotation {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+    
+}
+
+.motivations-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.motivations-main img {
+    width: 35%;
+    animation: rotation 10s linear infinite;
+}
+
+.motivations-main .motivations-text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 80%;
+    color: white;
+}
+
+.motivations-main .motivations-text .motivations-title {
+    height: 10%;
+    font-size: 1.2vw;
+}
+
+.motivations-main .motivations-text .motivations-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.2vw;
+    height: 90%;
+}
+
+/*MOBILE*/
+@media (max-width: 480px) {
+    .motivations-main img {
+        display: none;
+    }
+
+    .motivations-main .motivations-text {
+        width: 80%;
+        height: 90%;
+    }
+    
+    .motivations-main .motivations-text .motivations-title {
+        font-size: 3vw;
+    }
+    
+    .motivations-main .motivations-text .motivations-list {
+        font-size: 3vw;
+    }
+}
+
+/*EXTRA SMALL DEVICES*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .motivations-main img {
+        display: none;
+    }
+
+    .motivations-main .motivations-text {
+        width: 80%;
+        height: 90%;
+    }
+    
+    .motivations-main .motivations-text .motivations-title {
+        font-size: 3vw;
+    }
+    
+    .motivations-main .motivations-text .motivations-list {
+        font-size: 3vw;
+    }
+}
+
+/*SMALL TABLETS*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .motivations-main img {
+        display: none;
+    }
+
+    .motivations-main .motivations-text {
+        width: 80%;
+        height: 90%;
+    }
+    
+    .motivations-main .motivations-text .motivations-title {
+        font-size: 3vw;
+    }
+    
+    .motivations-main .motivations-text .motivations-list {
+        font-size: 3vw;
+    }
+}
+
+/*LARGE TABLETS/LAPTOPS*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .motivations-main img {
+        display: none;
+    }
+
+    .motivations-main .motivations-text {
+        width: 80%;
+        height: 90%;
+    }
+    
+    .motivations-main .motivations-text .motivations-title {
+        font-size: 3vw;
+    }
+    
+    .motivations-main .motivations-text .motivations-list {
+        font-size: 3vw;
+    }
+}

@@ -1,0 +1,111 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 15vh;
+}
+
+header .logo-header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+
+header .logo-header img {
+    width: 8vw;
+}
+
+header .options-header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+header .options-header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    list-style-type: none;
+    color: white;
+    font-size: 1.3vw;
+}
+
+header .options-header ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header .options-header ul li:hover {
+    color: #e53939;
+    cursor: pointer;
+}
+
+/*MOBILE*/
+@media ( max-width: 480px ) {
+    header {
+        height: 5vh;
+    }
+
+    header .logo-header img {
+        width: 13vw;
+    }
+
+    header .options-header ul {
+        width: 100%;
+        font-size: 2vw;
+    }
+}
+
+/*EXTRA SMALL DEVICES*/
+@media (min-width: 481px) and (max-width: 767px) {
+    header {
+        height: 5vh;
+    }
+
+    header .logo-header img {
+        width: 13vw;
+    }
+
+    header .options-header ul {
+        width: 100%;
+        font-size: 2vw;
+    }
+}
+
+/*SMALL TABLETS*/
+@media (min-width: 768px) and (max-width: 991px) {
+    header {
+        height: 5vh;
+    }
+
+    header .logo-header img {
+        width: 13vw;
+    }
+
+    header .options-header ul {
+        width: 100%;
+        font-size: 2vw;
+    }
+}
+
+/*LARGE TABLETS/LAPTOPS*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    header {
+        height: 5vh;
+    }
+
+    header .logo-header img {
+        width: 13vw;
+    }
+
+    header .options-header ul {
+        width: 100%;
+        font-size: 2vw;
+    }
+}

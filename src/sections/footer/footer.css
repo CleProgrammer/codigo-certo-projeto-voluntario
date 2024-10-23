@@ -1,0 +1,56 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 7vh;
+    background-color: #e53939;
+    border-top: 2px solid white;
+}
+
+footer .footer-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+    color: white;
+}
+
+footer .footer-main a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+/*MOBILE*/
+@media ( max-width: 480px ) {
+    footer {
+        border-top: 1px solid white;
+    }
+
+    footer .footer-main a {
+        font-size: 3vw;
+    }
+}
+
+/*EXTRA SMALL DEVICES*/
+@media (min-width: 481px) and (max-width: 767px) {
+    footer .footer-main a {
+        font-size: 2.5vw;
+    }
+}
+
+/*SMALL TABLETS*/
+@media (min-width: 768px) and (max-width: 991px) {
+    footer .footer-main a {
+        font-size: 2.5vw;
+    }
+}
+
+/*LARGE TABLETS/LAPTOPS*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    footer .footer-main a {
+        font-size: 2.5vw;
+    }
+}

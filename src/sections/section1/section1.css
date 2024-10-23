@@ -1,0 +1,43 @@
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../images/capasection1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/*MOBILE*/
+@media ( max-width: 480px ) {
+    .section1 {
+        background-image: none;
+        background-color: black;
+    }
+}
+
+/*EXTRA SMALL TABLETS*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .section1 {
+        background-image: none;
+        background-color: black;
+    }
+}
+
+/*SMALL TABLETS*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .section1 {
+        background-image: none;
+        background-color: black;
+    }
+}
+
+/*LARGE TABLETS/LAPTOPS*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .section1 {
+        background-image: none;
+        background-color: black;
+    }
+}
